@@ -13,13 +13,7 @@ void main() async {
   await Firebase.initializeApp(
     options: kIsWeb
         ? const FirebaseOptions(
-    apiKey: 'AIzaSyAANnlW-wSX8U07H1d5jWKrR_Vs4DId-to',
-    appId: '1:253957957776:web:9251914cfb50443817d015',
-    messagingSenderId: '253957957776',
-    projectId: 'cosmopharma-f5343',
-    authDomain: 'cosmopharma-f5343.firebaseapp.com',
-    storageBucket: 'cosmopharma-f5343.firebasestorage.app',
-    measurementId: 'G-3D7MHRX7RH',
+
           )
         : DefaultFirebaseOptions.currentPlatform,
   );
